@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cornell Robertson · Software Developer</title>
+  <meta name="description" content="Cornell Robertson's journey from Pursuit fellow to software developer, as a timeline of projects from 2023 to today.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="projects.js"></script>
+  <script defer src="main.js"></script>
+</head>
+<body>
+  <header class="hero">
+    <p class="eyebrow">Software Developer · Pursuit Fellow · CoreTheProducer</p>
+    <h1>Cornell Robertson</h1>
+    <p class="lede">
+      I build full-stack web apps with React, Node, and PostgreSQL, and lately AI-native products.
+      I came to code from music production. This page tracks my path from my first <code>git commit</code> at Pursuit in 2023 to shipping software for real clients.
+    </p>
+    <div class="hero-links">
+      <a class="button primary" href="https://github.com/CodeToTheCore">GitHub</a>
+      <a class="button" href="#timeline">See the timeline</a>
+    </div>
+    <dl class="stats" id="stats"></dl>
+  </header>
+
+  <main id="timeline">
+    <div class="toolbar">
+      <h2>The journey</h2>
+      <div class="filter" role="group" aria-label="Show">
+        <button type="button" data-filter="all" aria-pressed="true">Everything</button>
+        <button type="button" data-filter="featured" aria-pressed="false">Featured projects</button>
+      </div>
+    </div>
+    <ol class="timeline" id="eras"></ol>
+  </main>
+
+  <footer>
+    <p>Built by Cornell Robertson with HTML, CSS, and JavaScript. <a href="https://github.com/CodeToTheCore/developer-portfolio">View source</a></p>
+  </footer>
+</body>
+</html>
