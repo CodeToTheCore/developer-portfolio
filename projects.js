@@ -204,7 +204,8 @@ const ERAS = [
         name: "CORE GAME LAB",
         description: "A full-stack learning platform that teaches software engineering, data, AI/ML, and game development by tying each concept to a real build task. Includes an AI tutor built on the Anthropic API, progress tracking, and instructor tools.",
         tech: ["React", "TypeScript", "Express", "PostgreSQL", "Anthropic API", "Railway"],
-        privateNote: "Private repo, demo available on request",
+        live: "https://core-game-lab-web-production.up.railway.app",
+        privateNote: "Private repo · click \"Try the demo\" to explore",
       },
       {
         featured: true,
