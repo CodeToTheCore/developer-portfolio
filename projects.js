@@ -9,7 +9,6 @@ const ERAS = [
     title: "Day one at Pursuit",
     summary: "Started the Pursuit Fellowship. Learned the command line, Git and GitHub, planning an app before writing code, pair programming, and testing with Jest.",
     projects: [
-      { name: "Intro to the Command Line", repo: null },
       { name: "Git & GitHub lab", repo: GH + "lab-github" },
       { name: "Collaborative Programming", repo: GH + "lab-collaborative-programming" },
       { name: "App Planning", repo: GH + "lab-app-planning" },
@@ -45,7 +44,6 @@ const ERAS = [
       { name: "Fetch & Promises", repo: GH + "api-promises-and-fetch-starter-code" },
       { name: "EmojiHub", repo: GH + "emojihub-warmup" },
       { name: "Request/Response with Postman", repo: GH + "lab-request-response-cycle-api-postman" },
-      { name: "Web Inventory App", repo: GH + "web-inventory-app-cr" },
     ],
   },
   {
@@ -99,7 +97,6 @@ const ERAS = [
       },
       { name: "Express Routes", repo: PRACTICE + "2024-11-express-routes" },
       { name: "Anime API (Express + Postgres)", repo: PRACTICE + "2025-01-anime-api" },
-      { name: "Prompt practice", repo: PRACTICE + "2025-01-prompt-practice" },
     ],
   },
   {
@@ -125,7 +122,6 @@ const ERAS = [
       { name: "Hooks, Context & Router", repo: PRACTICE + "2025-03-react-hooks-context-router" },
       { name: "React Forms", repo: PRACTICE + "2025-03-react-forms" },
       { name: "React Router", repo: PRACTICE + "2025-03-react-router" },
-      { name: "Form Submit", repo: PRACTICE + "2025-03-react-form-submit" },
       { name: "Web Fundamentals (AJAX, Fetch, Python)", repo: PRACTICE + "2025-03-web-fundamentals" },
       { name: "ES Modules", repo: PRACTICE + "2025-03-es-modules" },
     ],
@@ -147,10 +143,9 @@ const ERAS = [
   {
     when: "Nov 2025",
     title: "Keeping sharp",
-    summary: "Kept practicing between projects: Express middleware and routers, and JavaScript fundamentals.",
+    summary: "Kept practicing between projects with Express middleware, routers, and controllers.",
     projects: [
       { name: "Express Starter (middleware & routers)", repo: PRACTICE + "2025-11-express-starter" },
-      { name: "JavaScript Strings", repo: PRACTICE + "2025-11-javascript-strings" },
     ],
   },
   {
