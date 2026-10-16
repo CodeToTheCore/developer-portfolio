@@ -1,6 +1,7 @@
 // Every entry on the timeline. To add a project, add an object to the right era.
 // featured: true shows it as a large card; false shows it as a small chip.
 const GH = "https://github.com/CodeToTheCore/";
+const PRACTICE = GH + "pursuit-practice/tree/main/";
 
 const ERAS = [
   {
@@ -77,7 +78,7 @@ const ERAS = [
     ],
   },
   {
-    when: "Nov – Dec 2024",
+    when: "Nov 2024 – Jan 2025",
     title: "Back end & first hackathon",
     summary: "Built servers with Express and PostgreSQL, then shipped a full-stack app with a team in a two-day hackathon.",
     projects: [
@@ -96,12 +97,15 @@ const ERAS = [
         repo: "https://github.com/paulgasbarra/PursuitHackathonFourSquare",
         team: true,
       },
+      { name: "Express Routes", repo: PRACTICE + "2024-11-express-routes" },
+      { name: "Anime API (Express + Postgres)", repo: PRACTICE + "2025-01-anime-api" },
+      { name: "Prompt practice", repo: PRACTICE + "2025-01-prompt-practice" },
     ],
   },
   {
     when: "Mar – Apr 2025",
-    title: "Deeper React",
-    summary: "Practiced lifting state up, controlled forms, client-side routing, and the Context API.",
+    title: "Deeper React & web fundamentals",
+    summary: "Practiced lifting state up, controlled forms, client-side routing, Context and useReducer. In L3 I went back to the fundamentals: AJAX, Fetch, and ES modules.",
     projects: [
       {
         featured: true,
@@ -111,9 +115,42 @@ const ERAS = [
         repo: GH + "shopping-cart",
         live: "https://codetothecore.github.io/shopping-cart/",
       },
-      { name: "React Forms", repo: null },
-      { name: "React Router", repo: null },
-      { name: "Context & Theming", repo: null },
+      {
+        featured: true,
+        name: "Nature Sightings",
+        description: "Log, edit, and search wildlife sightings around the city. An Express REST API with validation and stats, and a fetch-powered front end. Started as L3 practice, then rebuilt into a full app with tests.",
+        tech: ["Node.js", "Express", "REST API", "JavaScript", "CSS Grid", "node:test"],
+        repo: GH + "nature-sightings",
+      },
+      { name: "Hooks, Context & Router", repo: PRACTICE + "2025-03-react-hooks-context-router" },
+      { name: "React Forms", repo: PRACTICE + "2025-03-react-forms" },
+      { name: "React Router", repo: PRACTICE + "2025-03-react-router" },
+      { name: "Form Submit", repo: PRACTICE + "2025-03-react-form-submit" },
+      { name: "Web Fundamentals (AJAX, Fetch, Python)", repo: PRACTICE + "2025-03-web-fundamentals" },
+      { name: "ES Modules", repo: PRACTICE + "2025-03-es-modules" },
+    ],
+  },
+  {
+    when: "Jun 2025",
+    title: "Data structures",
+    summary: "Studied computer-science fundamentals: how data is stored, and the time cost of each operation.",
+    projects: [
+      {
+        featured: true,
+        name: "Data Structures in JavaScript",
+        description: "A linked list built from scratch with append, prepend, find, delete, insertAt, size, and in-place reverse. Covered by tests, with Big-O notes on when to use a linked list instead of an array.",
+        tech: ["JavaScript", "Algorithms", "Big-O", "node:test"],
+        repo: GH + "data-structures",
+      },
+    ],
+  },
+  {
+    when: "Nov 2025",
+    title: "Keeping sharp",
+    summary: "Kept practicing between projects: Express middleware and routers, and JavaScript fundamentals.",
+    projects: [
+      { name: "Express Starter (middleware & routers)", repo: PRACTICE + "2025-11-express-starter" },
+      { name: "JavaScript Strings", repo: PRACTICE + "2025-11-javascript-strings" },
     ],
   },
   {
