@@ -134,8 +134,8 @@ const ERAS = [
       {
         featured: true,
         name: "Data Structures in JavaScript",
-        description: "A linked list built from scratch with append, prepend, find, delete, insertAt, size, and in-place reverse. Covered by tests, with Big-O notes on when to use a linked list instead of an array.",
-        tech: ["JavaScript", "Algorithms", "Big-O", "node:test"],
+        description: "A linked list, stack, queue, and binary search tree built from scratch. Includes balanced-bracket checking, an O(1) queue built from nodes, and tree traversals and removal. 21 tests, with Big-O notes for each.",
+        tech: ["JavaScript", "Algorithms", "Big-O", "Trees", "node:test"],
         repo: GH + "data-structures",
       },
     ],
