@@ -156,7 +156,7 @@ const ERAS = [
       {
         featured: true,
         name: "CoreTrenz Platform",
-        description: "A streetwear marketplace. Browse partner brands, search products across marketplaces, generate custom clothing designs, and check out with Stripe. Fees and NYC sales tax are calculated in the app.",
+        description: "My fashion business: my own brand, Cornell's Denim, plus 14 partner brands with affiliate-ready links. It also has marketplace search, a clothing Design Machine, and Stripe checkout, with fees and NYC sales tax calculated in the app.",
         tech: ["React", "Express 5", "Stripe", "Axios"],
         repo: GH + "coretrenz-platform",
       },
