@@ -106,9 +106,9 @@ const ERAS = [
     projects: [
       {
         featured: true,
-        name: "Shopping Cart",
-        description: "A React cart where you add products, change quantities, and remove items while a summary keeps the total up to date. Covered by a React Testing Library test.",
-        tech: ["React 19", "React Testing Library"],
+        name: "Code To The Core Merch Store",
+        description: "A React shopping cart for my music brand. Category filters, quantities, NYC tax, free-shipping rules, promo codes, a cart that survives refresh, and checkout. Prices are stored in cents to avoid rounding bugs. 10 tests.",
+        tech: ["React 19", "localStorage", "CSS Grid", "React Testing Library"],
         repo: GH + "shopping-cart",
         live: "https://codetothecore.github.io/shopping-cart/",
       },
