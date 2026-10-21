@@ -212,6 +212,7 @@ const ERAS = [
         repo: "https://github.com/hirekarl/riser",
         team: true,
       },
+      { name: "Morning Briefing Agent (Gmail, Calendar, Slack)", repo: GH + "morning-briefing-agent" },
     ],
   },
   {
