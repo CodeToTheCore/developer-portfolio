@@ -199,6 +199,7 @@ const ERAS = [
         tech: ["Python", "FastAPI", "SQLAlchemy", "SQLite", "AI agents"],
         repo: GH + "feedbackloop-ai",
         live: "https://feedbackloop-ai.onrender.com",
+        liveNote: "Free hosting: the demo may take about 30 seconds to wake up.",
         team: true,
       },
       {
