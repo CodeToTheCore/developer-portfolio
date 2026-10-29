@@ -2,7 +2,7 @@
 
 My path from Pursuit fellow to software developer, shown as a timeline of every project from September 2023 to today.
 
-**Live site:** https://codetothecore.github.io/developer-portfolio/
+**Live site:** https://cornell-robertson.vercel.app
 
 ## Add a project
 

@@ -57,7 +57,7 @@ const ERAS = [
         description: "A music store and producer site. Search any artist through the iTunes API, load albums for top artists, open a details page with a 30-second preview, and listen to my own tracks as CoreTheProducer.",
         tech: ["HTML", "CSS Grid & Flexbox", "JavaScript", "Fetch API", "iTunes API"],
         repo: GH + "Front-end-project",
-        live: "https://codetothecore.github.io/Front-end-project/",
+        live: "https://core-music-store.vercel.app",
       },
     ],
   },
@@ -110,7 +110,7 @@ const ERAS = [
         description: "A React shopping cart for my music brand. Category filters, quantities, NYC tax, free-shipping rules, promo codes, a cart that survives refresh, and checkout. Prices are stored in cents to avoid rounding bugs. 10 tests.",
         tech: ["React 19", "localStorage", "CSS Grid", "React Testing Library"],
         repo: GH + "shopping-cart",
-        live: "https://codetothecore.github.io/shopping-cart/",
+        live: "https://core-merch-store.vercel.app",
       },
       {
         featured: true,
@@ -118,6 +118,7 @@ const ERAS = [
         description: "Log, edit, and search wildlife sightings around the city. An Express REST API with validation and stats, and a fetch-powered front end. Started as L3 practice, then rebuilt into a full app with tests.",
         tech: ["Node.js", "Express", "REST API", "JavaScript", "CSS Grid", "node:test"],
         repo: GH + "nature-sightings",
+        live: "https://nature-sightings-production.up.railway.app",
       },
       { name: "Hooks, Context & Router", repo: PRACTICE + "2025-03-react-hooks-context-router" },
       { name: "React Forms", repo: PRACTICE + "2025-03-react-forms" },
@@ -156,9 +157,10 @@ const ERAS = [
       {
         featured: true,
         name: "CoreTrenz Platform",
-        description: "My fashion business: my own brand, Cornell's Denim, plus 14 partner brands with affiliate-ready links. It also has marketplace search, a clothing Design Machine, and Stripe checkout, with fees and NYC sales tax calculated in the app.",
+        description: "My fashion business (storefront demo; checkout is off): my own brand, Cornell's Denim, plus 14 partner brands with affiliate-ready links. It also has marketplace search, a clothing Design Machine, and Stripe checkout, with fees and NYC sales tax calculated in the app.",
         tech: ["React", "Express 5", "Stripe", "Axios"],
         repo: GH + "coretrenz-platform",
+        live: "https://coretrenz.vercel.app",
       },
     ],
   },
@@ -170,9 +172,10 @@ const ERAS = [
       {
         featured: true,
         name: "FanFlow AI",
-        description: "A revenue engine for independent artists. It scores followers to find superfans, writes AI campaign scripts, finds gigs and sync deals, builds an artist resume, and includes a media studio and an agent chat.",
+        description: "A revenue engine for independent artists (the live demo uses sample data, with no real accounts connected). It scores followers to find superfans, writes AI campaign scripts, finds gigs and sync deals, builds an artist resume, and includes a media studio and an agent chat.",
         tech: ["React", "Vite", "Tailwind", "Zustand", "Express", "PostgreSQL", "OpenAI", "Stripe", "JWT"],
         repo: GH + "core-fanflow-ai",
+        live: "https://fanflow-demo.vercel.app",
       },
     ],
   },
@@ -187,6 +190,7 @@ const ERAS = [
         description: "I took over a support-inbox app with intentional flaws and fixed it. AI now scores urgency by business impact, with replies checked against allowed values. I added supervisor routing, follow-up tracking, and AI review of draft replies. Accuracy went from 3/12 to 8/8 on held-out messages, and it has 84 tests. The AI key stays on the server.",
         tech: ["React", "Vite", "Groq (Llama 3.3)", "Prompt engineering", "Serverless API", "node:test"],
         repo: GH + "l2assessment",
+        live: "https://inbox-triage-three.vercel.app",
       },
       {
         featured: true,
@@ -194,6 +198,7 @@ const ERAS = [
         description: "A working prototype of an AI hiring agent. It summarizes interviewer scorecards, flags conflicting feedback instead of averaging it away, treats scorecard text as data so it can't be hijacked by injected instructions, and limits reminders to one per interview.",
         tech: ["Python", "FastAPI", "SQLAlchemy", "SQLite", "AI agents"],
         repo: GH + "feedbackloop-ai",
+        live: "https://feedbackloop-ai.onrender.com",
         team: true,
       },
       {
@@ -243,8 +248,9 @@ const ERAS = [
         name: "CORE GAME LAB",
         description: "A full-stack learning platform that teaches software engineering, data, AI/ML, and game development by tying each concept to a real build task. Includes an AI tutor built on the Anthropic API, progress tracking, and instructor tools.",
         tech: ["React", "TypeScript", "Express", "PostgreSQL", "Anthropic API", "Railway"],
-        live: "https://core-game-lab-web-production.up.railway.app",
-        privateNote: "Private repo · click \"Try the demo\" to explore",
+        // Live site is offline right now (Oct 29). When it's back, restore this line:
+        // live: "https://core-game-lab-web-production.up.railway.app",
+        privateNote: "Private repo · live demo available on request",
       },
       {
         featured: true,
