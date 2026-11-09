@@ -29,6 +29,7 @@ function featuredCard(project) {
   const links = el("div", "card-links");
   if (project.live) links.append(link(project.live, "Live demo", "button primary small"));
   if (project.repo) links.append(link(project.repo, "Code", "button small"));
+  if (project.video) links.append(link(project.video, "Watch video", "button small"));
   if (project.privateNote) links.append(el("span", "private", project.privateNote));
   if (project.liveNote) links.append(el("span", "live-note", project.liveNote));
   card.append(links);

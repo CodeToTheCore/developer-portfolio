@@ -257,6 +257,7 @@ const ERAS = [
         name: "AAFE Gala Guest Hub",
         description: "A guest-list tool for Asian Americans for Equality's annual gala, built by team ERIMX BOKHUS. It sits on top of Give Lively and adds sponsor self-service guest names, staff-approved follow-ups, badge exports, and gala-night check-in.",
         tech: ["Client project", "Discovery & prototyping", "AI-native workflow", "Teamwork"],
+        video: "https://www.loom.com/share/5232026bc3c14f55a508b18a9aae184d",
         privateNote: "Client project, private repo",
         team: true,
       },
